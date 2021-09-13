@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/28/10/19/old-frame-4583939_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+}
+.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   
+}
+.hover{
+   border: 1px solid tomato;
+   padding: 1rem;
+   color: tomato;
+   transition: all ease-in .2s;
+}
+
+.hover:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px -2px yellow;
+}
